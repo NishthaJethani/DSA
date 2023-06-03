@@ -125,7 +125,7 @@ class graph
             cout<<"Enter number of cities: ";
             cin>>n;
             network=new city*[n];
-            queue que(n);
+            que=queue(n);
             visited=new string[n];
 
             for(int i=0; i<n; i++)
